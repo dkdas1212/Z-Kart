@@ -17,3 +17,43 @@ eCommerce platform built with the MERN stack & Redux. This app includes authenti
 * Checkout process (shipping, payment method, etc)
 * PayPal / credit card integration
 * Database seeder (products & users)
+* AI/ML-based Recommendation System
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|:------|:------------|
+| **Frontend** | React, Redux, Axios, Bootstrap |
+| **Backend** | Node.js, Express.js |
+| **Database** | MongoDB + Mongoose |
+| **Authentication** | JWT Tokens |
+| **Payments** | PayPal REST API |
+| **Machine Learning** | Collaborative Filtering (Node.js Script) |
+| **Build Tool** | npm, concurrently |
+
+---
+
+## 📦 Setup
+
+### Prerequisites
+- Node.js (v18+)
+- npm (v9+)
+- MongoDB (local or Atlas)
+
+---
+
+### Steps
+
+```bash
+# Clone repository
+git clone https://github.com/dkdas1212/Z-Kart.git
+cd Z-Kart
+
+# Install backend dependencies
+npm install
+
+# Install frontend dependencies
+cd frontend
+npm install
+cd ..
